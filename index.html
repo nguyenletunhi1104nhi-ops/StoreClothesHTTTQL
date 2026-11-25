@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#174d3d"><meta name="description" content="Demo hệ thống quản lý cửa hàng quần áo: sản phẩm, POS, đơn Online, kho và báo cáo.">
+  <title>Maison • Quản lý cửa hàng</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <aside id="sidebar">
+  <a class="brand" href="#overview"><span class="brand-mark">m</span> maison<span class="brand-dot">.</span></a>
+  <div class="store"><span class="store-icon">M</span><div><strong>Maison Clothing</strong><small>Cửa hàng chính · TP. Hồ Chí Minh</small></div><span>⌄</span></div>
+  <div class="nav-label">KHÔNG GIAN LÀM VIỆC</div>
+  <nav aria-label="Điều hướng chính"></nav>
+  <div class="sidebar-note"><span>✧</span><strong>Mọi thứ trong tầm tay.</strong><p>Một không gian cho cửa hàng<br>và những kế hoạch lớn.</p><div class="note-line"></div><small>STORE MANAGEMENT / V1</small></div>
+  <div class="profile"><span class="avatar">TN</span><div><strong>Tú Nhi</strong><small>Chủ cửa hàng · Demo</small></div><button id="reset" title="Khôi phục dữ liệu mẫu" aria-label="Khôi phục dữ liệu mẫu">↺</button></div>
+ </aside>
+ <div class="workspace"><header><button id="menu" aria-label="Mở menu">☰</button><div class="breadcrumb">Không gian làm việc <span>/</span> <strong id="crumb">Tổng quan</strong></div><div class="header-right"><span class="demo-pill"><i></i> Dữ liệu demo</span><span class="header-date" id="today"></span><span class="avatar small">TN</span></div></header>
+ <main id="main"></main><footer>MAISON WORKSPACE <span>Quản lý nhẹ nhàng. Kinh doanh hiệu quả.</span><span>Demo V1 · Lưu trên trình duyệt</span></footer></div>
+ <dialog id="modal"><div id="modal-body"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+ <script src="app.js"></script>
+</body></html>
